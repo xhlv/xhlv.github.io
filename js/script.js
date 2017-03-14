@@ -134,4 +134,13 @@
 
     $container.removeClass('mobile-nav-on');
   });
+
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?8039d84a62ce5fef00aad455fe8cc8a1";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+
 })(jQuery);

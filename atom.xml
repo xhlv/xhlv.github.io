@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>xhlv&#39;s blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.xhlv.com/"/>
+  <updated>2017-03-13T09:01:56.952Z</updated>
+  <id>http://blog.xhlv.com/</id>
+  
+  <author>
+    <name>xhlv</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>gremlins模拟用户随机操作</title>
+    <link href="http://blog.xhlv.com/2017/03/13/gremlins/"/>
+    <id>http://blog.xhlv.com/2017/03/13/gremlins/</id>
+    <published>2017-03-13T08:51:39.000Z</published>
+    <updated>2017-03-13T09:01:56.952Z</updated>
+    
+    <content type="html"><![CDATA[<p>一个蛮有意思的工具，想法不错，但实际操作效果可能不是很理想。</p>
+<p><a href="http://blog.xhlv.com/lab/gremlins/index.html">http://blog.xhlv.com/lab/gremlins/index.html</a></p>
+<p><img src="http://static.marmelab.com/todo.gif" alt=""></p>
+<blockquote>
+<p>Gremlins.js是基于JavaScript的Monkey测试库，支持Node.js平台和浏览器中使用。Gremlins.js的目的是触发JavaScript 错误或使应用程序失败。如果它不能让你应用程序崩溃，那么说明你的应用程序已经足够强大了，可以发布给真正的用户使用。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个蛮有意思的工具，想法不错，但实际操作效果可能不是很理想。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.xhlv.com/lab/gremlins/index.html&quot;&gt;http://blog.xhlv.com/lab/gremlins/index.html
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="http://blog.xhlv.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="测试" scheme="http://blog.xhlv.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ios中safari遇到localStorage无法使用</title>
+    <link href="http://blog.xhlv.com/2017/03/13/ios-localstorage-disabled/"/>
+    <id>http://blog.xhlv.com/2017/03/13/ios-localstorage-disabled/</id>
+    <published>2017-03-13T08:37:32.000Z</published>
+    <updated>2017-03-13T08:52:55.241Z</updated>
+    
+    <content type="html"><![CDATA[<p>产品反馈了个bug，发现是localStorage失效导致，那么为什么会失效了？用户自己把缓存清了？</p>
+<p>其实不是，浏览器有一个无痕浏览模式，可能是不小心点到了……</p>
+<p>虽然是个小概率事件，逻辑上也得兼容一下。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;产品反馈了个bug，发现是localStorage失效导致，那么为什么会失效了？用户自己把缓存清了？&lt;/p&gt;
+&lt;p&gt;其实不是，浏览器有一个无痕浏览模式，可能是不小心点到了……&lt;/p&gt;
+&lt;p&gt;虽然是个小概率事件，逻辑上也得兼容一下。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="http://blog.xhlv.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="JS" scheme="http://blog.xhlv.com/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>尝试一下新版Hexo</title>
+    <link href="http://blog.xhlv.com/2017/03/13/hello/"/>
+    <id>http://blog.xhlv.com/2017/03/13/hello/</id>
+    <published>2017-03-13T07:34:24.000Z</published>
+    <updated>2017-03-13T08:09:33.583Z</updated>
+    
+    <content type="html"><![CDATA[<p>貌似还不错</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;貌似还不错&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://blog.xhlv.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+</feed>

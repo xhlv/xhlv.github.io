@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.xhlv.com/"/>
-  <updated>2017-03-13T09:01:56.952Z</updated>
+  <updated>2017-04-06T10:15:07.824Z</updated>
   <id>http://blog.xhlv.com/</id>
   
   <author>
@@ -16,11 +16,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ipv6</title>
+    <link href="http://blog.xhlv.com/2017/04/06/ipv6/"/>
+    <id>http://blog.xhlv.com/2017/04/06/ipv6/</id>
+    <published>2017-04-06T06:16:13.000Z</published>
+    <updated>2017-04-06T10:15:07.824Z</updated>
+    
+    <content type="html"><![CDATA[<p>监测网站是否支持IPv6<br><a href="http://ipv6-test.com/validate.php" target="_blank" rel="external">http://ipv6-test.com/validate.php</a><br><a href="http://ready.chair6.net" target="_blank" rel="external">http://ready.chair6.net</a></p>
+<p>更新本地所有库<br>npm update –g</p>
+<p>ipv6.taobao.com</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;监测网站是否支持IPv6&lt;br&gt;&lt;a href=&quot;http://ipv6-test.com/validate.php&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ipv6-test.com/validate.php&lt;/a&gt;&lt;br&gt;&lt;a hr
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>gremlins模拟用户随机操作</title>
     <link href="http://blog.xhlv.com/2017/03/13/gremlins/"/>
     <id>http://blog.xhlv.com/2017/03/13/gremlins/</id>
     <published>2017-03-13T08:51:39.000Z</published>
-    <updated>2017-03-13T09:01:56.952Z</updated>
+    <updated>2017-03-15T02:42:53.865Z</updated>
     
     <content type="html"><![CDATA[<p>一个蛮有意思的工具，想法不错，但实际操作效果可能不是很理想。</p>
 <p><a href="http://blog.xhlv.com/lab/gremlins/index.html">http://blog.xhlv.com/lab/gremlins/index.html</a></p>

@@ -3,24 +3,33 @@
 <head>
   <meta charset="utf-8">
   
-  <title>ios中safari遇到localStorage无法使用 | xhlv&#39;s blog</title>
+  <title>iOS App无法转让需要关闭TestFlight的问题 | xhlv&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="产品反馈了个bug，发现是localStorage失效导致，那么为什么会失效了？用户自己把缓存清了？
-其实不是，浏览器有一个无痕浏览模式，可能是不小心点到了……
-虽然是个小概率事件，逻辑上也得兼容一下。">
+  <meta name="description" content="转让App时，提示“App无法转让，您必须为想要转让的App关闭TestFlight Beta版测试”。
+但是找了半天，也没找到在哪关闭…
+看网上，有说重新提交审核过了，再转让，就可以了…
+不过，因为其他原因，重新提交还是被拒了。
+琢磨半天，发现另外一个方法：
+TestFlight下的构建版本，每个版本的版本号是可以点击的，点进去后，有一个按钮可以将这个构建版本设为已过期，重复操作，把所有的构建版">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ios中safari遇到localStorage无法使用">
-<meta property="og:url" content="http://blog.xhlv.com/2017/03/13/ios-localstorage-disabled/index.html">
+<meta property="og:title" content="iOS App无法转让需要关闭TestFlight的问题">
+<meta property="og:url" content="http://blog.xhlv.com/2017/06/16/testflight-app-transfer/index.html">
 <meta property="og:site_name" content="xhlv's blog">
-<meta property="og:description" content="产品反馈了个bug，发现是localStorage失效导致，那么为什么会失效了？用户自己把缓存清了？
-其实不是，浏览器有一个无痕浏览模式，可能是不小心点到了……
-虽然是个小概率事件，逻辑上也得兼容一下。">
-<meta property="og:updated_time" content="2017-03-13T08:52:55.241Z">
+<meta property="og:description" content="转让App时，提示“App无法转让，您必须为想要转让的App关闭TestFlight Beta版测试”。
+但是找了半天，也没找到在哪关闭…
+看网上，有说重新提交审核过了，再转让，就可以了…
+不过，因为其他原因，重新提交还是被拒了。
+琢磨半天，发现另外一个方法：
+TestFlight下的构建版本，每个版本的版本号是可以点击的，点进去后，有一个按钮可以将这个构建版本设为已过期，重复操作，把所有的构建版">
+<meta property="og:updated_time" content="2017-06-16T02:25:39.421Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ios中safari遇到localStorage无法使用">
-<meta name="twitter:description" content="产品反馈了个bug，发现是localStorage失效导致，那么为什么会失效了？用户自己把缓存清了？
-其实不是，浏览器有一个无痕浏览模式，可能是不小心点到了……
-虽然是个小概率事件，逻辑上也得兼容一下。">
+<meta name="twitter:title" content="iOS App无法转让需要关闭TestFlight的问题">
+<meta name="twitter:description" content="转让App时，提示“App无法转让，您必须为想要转让的App关闭TestFlight Beta版测试”。
+但是找了半天，也没找到在哪关闭…
+看网上，有说重新提交审核过了，再转让，就可以了…
+不过，因为其他原因，重新提交还是被拒了。
+琢磨半天，发现另外一个方法：
+TestFlight下的构建版本，每个版本的版本号是可以点击的，点进去后，有一个按钮可以将这个构建版本设为已过期，重复操作，把所有的构建版">
   
     <link rel="alternate" href="/atom.xml" title="xhlv&#39;s blog" type="application/atom+xml">
   
@@ -69,10 +78,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-ios-localstorage-disabled" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-testflight-app-transfer" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/03/13/ios-localstorage-disabled/" class="article-date">
-  <time datetime="2017-03-13T08:37:32.000Z" itemprop="datePublished">2017-03-13</time>
+    <a href="/2017/06/16/testflight-app-transfer/" class="article-date">
+  <time datetime="2017-06-16T02:12:15.000Z" itemprop="datePublished">2017-06-16</time>
 </a>
     
   </div>
@@ -83,7 +92,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      ios中safari遇到localStorage无法使用
+      iOS App无法转让需要关闭TestFlight的问题
     </h1>
   
 
@@ -91,37 +100,29 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>产品反馈了个bug，发现是localStorage失效导致，那么为什么会失效了？用户自己把缓存清了？</p>
-<p>其实不是，浏览器有一个无痕浏览模式，可能是不小心点到了……</p>
-<p>虽然是个小概率事件，逻辑上也得兼容一下。</p>
+        <p>转让App时，提示“App无法转让，您必须为想要转让的App关闭TestFlight Beta版测试”。</p>
+<p>但是找了半天，也没找到在哪关闭…</p>
+<p>看网上，有说重新提交审核过了，再转让，就可以了…</p>
+<p>不过，因为其他原因，重新提交还是被拒了。</p>
+<p>琢磨半天，发现另外一个方法：</p>
+<p>TestFlight下的构建版本，每个版本的版本号是可以点击的，点进去后，有一个按钮可以将这个构建版本设为已过期，重复操作，把所有的构建版本都设为已过期，就可以顺利转让App了…</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.xhlv.com/2017/03/13/ios-localstorage-disabled/" data-id="cj3z8flyv0002twfn9jl5adnb" class="article-share-link">Share</a>
+      <a data-url="http://blog.xhlv.com/2017/06/16/testflight-app-transfer/" data-id="cj3z8flz30005twfnch1w5i8r" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JS/">JS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li></ul>
-
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2017/03/13/gremlins/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          gremlins模拟用户随机操作
-        
-      </div>
-    </a>
   
-  
-    <a href="/2017/03/13/hello/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2017/04/06/ipv6/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">尝试一下新版Hexo</div>
+      <div class="article-nav-title">ipv6</div>
     </a>
   
 </nav>
@@ -131,7 +132,7 @@
 
 
 <section id="comments">
-  <div class="ds-thread" data-thread-key="post-ios-localstorage-disabled" data-title="ios中safari遇到localStorage无法使用" data-url="http://blog.xhlv.com/2017/03/13/ios-localstorage-disabled/"></div>
+  <div class="ds-thread" data-thread-key="post-testflight-app-transfer" data-title="iOS App无法转让需要关闭TestFlight的问题" data-url="http://blog.xhlv.com/2017/06/16/testflight-app-transfer/"></div>
   <script type="text/javascript">
   var duoshuoQuery = {short_name:'xhlv'};
     (function() {
